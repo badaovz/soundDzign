@@ -1,0 +1,16 @@
+html,
+body {
+    @apply bg-blackLight text-[#fff] text-[16px] font-fontPrimary scroll-smooth;
+}
+
+.wrapper {
+    @apply max-w-[90vw] xl:max-w-5xl w-full mx-auto;
+}
+
+.topics li::before {
+    @apply text-pinkColor content-[""] inline-block w-2 h-2 bg-pinkColor rounded-[50%] mr-4 ml-[6px] font-bold;
+}
+
+.topics li {
+    @apply mb-6 flex items-center;
+}
